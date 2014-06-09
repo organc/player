@@ -11,6 +11,7 @@ namespace libplayer {
 		// TODO:  在此处添加此类的方法。
 	public:
 		PlayCtrl();
-		DWORD test();
+		String^ version();
+
 	};
 }

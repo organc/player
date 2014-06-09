@@ -5,5 +5,6 @@
 #pragma once
 #pragma comment(lib,"PlayCtrl.lib")
 
+#include "stdio.h"
 #include "windows.h"
 #include "PlayM4.h"

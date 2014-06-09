@@ -10,6 +10,10 @@ PlayCtrl::PlayCtrl(){
 	
 }
 
-DWORD PlayCtrl::test(){
-	return PlayM4_GetSdkVersion();
+String^ PlayCtrl::version(){
+	DWORD version_number = PlayM4_GetSdkVersion();
+	char version[10];
+	sprintf(version, "%p", version_number);
+	String^ sver = gcnew String(version);
+	return sver;
 }

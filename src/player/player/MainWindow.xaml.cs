@@ -30,7 +30,7 @@ namespace player
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             PlayCtrl t = new PlayCtrl();
-            MessageBox.Show(t.test().ToString());
+            MessageBox.Show(t.version());
         }
     }
 }
